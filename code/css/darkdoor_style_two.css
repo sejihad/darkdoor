@@ -107,7 +107,7 @@ body {
 }
 .search-box {
   background: #554d4d;
-  width: 303px;
+  width: 100%;
   border: none;
   border-radius: 50px;
   padding: 1px;
@@ -126,6 +126,7 @@ body {
   padding: 10px;
   font-size: 15px;
   outline: none;
+  width: 78%;
 }
 
 .search-btn {
@@ -140,6 +141,7 @@ body {
   border-radius: 41px;
   cursor: pointer;
   transition-duration: 0.4s;
+  font-weight: 600;
 }
 .search-btn:hover {
   background-color: black;
