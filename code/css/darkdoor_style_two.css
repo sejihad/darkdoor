@@ -136,7 +136,7 @@ body {
   color: white;
 }
 .search-btn {
-  background-color: #000000;
+  background-color: #ffffff00;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -148,10 +148,6 @@ body {
   cursor: pointer;
   transition-duration: 0.4s;
   font-weight: 600;
-  /* background-image: linear-gradient(to right, #ff6f61, #6a5acd, #00bcd4);
-
-  background-clip: text;
-  color: transparent; */
 }
 .search-btn:hover {
   background-color: rgb(255, 255, 255);
@@ -388,8 +384,21 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.footer-container {
+  text-align: center;
+  background-color: rgb(255 255 255 / 0%);
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .grid-view {
     grid-template-columns: 1fr;
+  }
+  .footer-container {
+    flex-direction: column;
+    row-gap: 16px;
   }
 }
