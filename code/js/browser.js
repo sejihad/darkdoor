@@ -89,8 +89,7 @@ function searchInIframe() {
     case "excavator":
       searchUrl = `http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/search/${params.keyword}`;
       break;
-    default:
-      searchUrl = `https://www.google.com/search?q=${params.keyword}`; // Default to Google if no engine
+    
   }
 
   // Set the iframe source to the search URL
