@@ -1,0 +1,5 @@
+robots.txt generated for DarkDoor
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://darkdoor.discoverymind.xyz/sitemap.xml
